@@ -1,0 +1,59 @@
+.sect5{
+	padding: rem(120) 0 rem(120) 0;
+
+	&__titleblock{
+		padding-bottom: rem(30);
+	}
+
+	&__descblock{
+		p{
+			font-size: rem(18);
+			font-weight: normal;
+			font-style: normal;
+			font-stretch: normal;
+			line-height: 1.67;
+			letter-spacing: normal;
+			color: $black;
+			margin-bottom: rem(30);
+			&:last-child{
+				margin-bottom: 0;
+			}
+		}
+	}
+
+	&__descblockbig{
+		padding: rem(50) 0 rem(30) 0;
+		p{
+			font-size: 24px;
+			font-weight: normal;
+			font-style: normal;
+			font-stretch: normal;
+			line-height: 1.58;
+			letter-spacing: normal;
+			color: $black;
+		}
+	}
+
+	&__subtitleblock{
+		padding-bottom: rem(20);
+		span{
+			font-family: NexaRustSans;
+			font-size: rem(26);
+			font-weight: 900;
+			font-style: normal;
+			font-stretch: normal;
+			line-height: 1.08;
+			letter-spacing: rem(-0.05);
+			color: #000000;
+			
+		}
+	}
+
+}
+
+
+@media screen and (max-width:769px){
+    .sect1{
+        
+    }
+}

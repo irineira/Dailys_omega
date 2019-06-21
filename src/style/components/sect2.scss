@@ -1,0 +1,30 @@
+.sect2{
+	padding: rem(120) 0 rem(120) 0 ;
+
+	&__titleblock{
+		padding-bottom: rem(30);
+	}
+
+	&__descblock{
+		p{
+			font-size: 24px;
+			font-weight: normal;
+			font-style: normal;
+			font-stretch: normal;
+			line-height: 1.58;
+			letter-spacing: normal;
+			color: $black;
+			margin-bottom: rem(34);
+			&:last-child{
+				margin-bottom: 0;
+			}
+		}
+	}
+}
+
+
+@media screen and (max-width:769px){
+    .sect2{
+        
+    }
+}

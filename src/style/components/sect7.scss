@@ -1,0 +1,44 @@
+.sect7{
+	padding: rem(120) 0 rem(120) 0;
+
+	&__titleblock{
+		padding-bottom: rem(30);
+		border-bottom: 1px solid  #8ee7d4;
+		// margin-bottom: rem(30);
+	}
+}
+
+.questionitem{
+	padding: rem(30) 0 rem(30) 0;
+	border-bottom: 1px solid  #8ee7d4;
+
+	&__top{
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__title{
+		span{
+			font-size: rem(20);
+			font-weight: 600;
+		}
+	}
+
+	&__icon{
+		img{
+			width: rem(22);
+			height: rem(22);
+		}
+	}
+
+	&__bottom{
+		padding: rem(30) 0 0 0;
+	}
+}
+
+
+@media screen and (max-width:769px){
+    .sect7{
+        
+    }
+}

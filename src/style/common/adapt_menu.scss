@@ -1,0 +1,53 @@
+    // adapt menu
+
+
+// @media screen and (max-width:769px){
+    
+    
+// }
+
+
+.adaptmenu{
+    transform: translateX(100%);
+    transition: 1s;
+    width: 75vw;
+    background-color: white;
+    height: 100vh;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    right: 0;
+    padding: 20px;
+
+    &__content{
+        display: flex;
+        flex-direction: column;
+        padding: 30px 0;
+    }
+
+    &__close{
+        width: 24px;
+        height: 24px;
+    }
+
+    &__item{
+        margin-bottom: 16px;
+        a{
+            color: $maintext;
+            font-size: 18px;
+        }
+        
+    }  
+}
+
+.close{
+    width: 24px;
+    img{
+        width: 100%;
+    }
+}
+
+.adaptmenu_active{
+    transform: translateX(0);
+}
+

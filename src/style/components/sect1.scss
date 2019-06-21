@@ -1,0 +1,55 @@
+.sect1{
+    background: #479896;
+    padding: rem(197) 0 rem(208) 0;
+
+    .wrapper{
+        width: rem(1190);
+    }
+
+    &__content{
+        display: flex;
+    }
+
+    &__descblock{
+        width: rem(670);
+        height: rem(245);
+        margin-bottom: rem(18);
+        img{
+            width: 100%;
+        }
+    }
+
+    &__buttonblock{
+        button{
+            border: none;
+            font-size: rem(20);
+            background: #eeeeee;
+            padding: rem(10);
+            text-transform: uppercase;
+            display: flex;
+            align-items: center;
+            img{
+                width: rem(22);
+                height: rem(22);
+            }
+        }
+    }
+
+    &__imgblock{
+        position: absolute;
+        top: -30px;
+        img{
+            width: rem(507);
+            height: rem(690);
+        }
+    }
+
+
+}
+
+
+@media screen and (max-width:769px){
+    .sect1{
+        
+    }
+}

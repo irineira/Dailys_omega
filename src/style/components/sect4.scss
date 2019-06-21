@@ -1,0 +1,15 @@
+.sect4{
+	padding: rem(120) 0 rem(140) 0;
+	background: #479896;
+
+	&__titleblock{
+		padding-bottom: rem(50);
+	}
+}
+
+
+@media screen and (max-width:769px){
+    .sect4{
+        
+    }
+}

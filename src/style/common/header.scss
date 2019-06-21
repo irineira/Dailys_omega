@@ -1,0 +1,62 @@
+.header{
+    padding: rem(15) 0;
+    position: absolute;
+    width: 100%;
+
+    .wrapper{
+        width: rem(1190);
+    }
+
+    &__content{
+        display: flex;
+        justify-content: space-between;
+        align-self: center;
+    }
+
+    &__logo{
+        width: rem(113.2);
+        height: rem(50);
+    }
+
+    &__right{
+        display: flex;
+        align-self: center;
+    }
+
+    &__select{
+        display: flex;
+        align-items: center;
+        padding-right: rem(30);
+        span{
+            font-size: 18px;
+            text-transform: uppercase;
+            cursor: pointer;
+       }
+    } 
+
+    &__blockbutton{
+        padding-right: rem(30);
+    }
+
+    &__burger{
+        display: flex;
+        align-items: center;
+    }
+
+    .burger{
+        cursor: pointer;
+        &__line {
+            width: rem(23);
+            height: rem(5);
+            background-color: $white;
+            margin-bottom:rem(4);
+        }
+    }
+}
+
+
+@media screen and (max-width:769px){
+    .header{
+        
+        }
+}

@@ -1,0 +1,87 @@
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+    }
+    
+    article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+        display: block;
+    }
+    
+    textarea {
+        resize: vertical;
+      }
+    
+    
+    
+    
+    
+    
+    
+    // my style
+    
+    * {
+        transition:all .1s ease-in-out
+    }
+    
+    html{
+        font-size: 0.9vw;
+    }
+    
+    @media screen and (max-width:769px){
+        html{
+            font-size: 16px;
+        }
+    }
+    
+    .content{
+        overflow: hidden;
+    }
+    
+    body{
+        position: relative;
+        font-family: RobotoSlab;
+        color: $maintext;
+        font-weight: 400;
+    }
+    
+    a{
+        cursor: pointer !important;
+        text-decoration: none;
+        // &:hover{
+            // text-decoration: underline;
+        // }
+    }
+    
+    
+    @font-face {
+        font-family: Pistacho; /* Имя шрифта */
+        src: url(../fonts/Pistacho-Sans.otf); // 400
+        
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: NexaRustSans; /* Имя шрифта */
+        src: url(../fonts/NexaRustSans-Black.otf); // 400
+        
+        font-weight: normal;
+        font-style: normal;
+    }
+    
+
+    @font-face {
+        font-family: RobotoSlab; /* Имя шрифта */
+        src: url(../fonts/RobotoSlab-Regular.ttf); // 400
+        
+        font-weight: normal;
+        font-style: normal;
+    }
+    

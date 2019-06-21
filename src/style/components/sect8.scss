@@ -1,0 +1,89 @@
+.sect8{
+	padding-bottom: rem(120);
+
+	&__titleblock{
+		padding-bottom: rem(30);
+	}
+
+	&__desc{
+		p{
+			font-size: rem(18);
+			font-weight: normal;
+			font-style: normal;
+			font-stretch: normal;
+			line-height: 1.67;
+			letter-spacing: normal;
+			color: $black;
+			a{
+				font-weight: bold;
+  				color: #479896;
+			}
+		}
+	}
+
+	&__formblock{
+		padding-top: rem(30);
+	}
+
+}
+
+.form{
+	text-align: right;
+	&__inputsblock{
+		display: flex;
+		justify-content: space-between;
+		padding-bottom: rem(20);
+		input{
+			width: rem(340);
+			height: rem(50);
+			border: solid 1px #8ee7d4;
+			padding: 0 rem(15);
+			font-family: RobotoSlab;
+			font-size: rem(16);
+			font-weight: normal;
+			font-style: normal;
+			font-stretch: normal;
+			line-height: 1.63;
+			letter-spacing: normal;
+			color: black;
+			@include placeholder{
+				font-family: RobotoSlab;
+				font-size: rem(16);
+				font-weight: normal;
+				font-style: normal;
+				font-stretch: normal;
+				line-height: 1.63;
+				letter-spacing: normal;
+				color: black;
+			}
+		}
+	}
+
+	.textarea{
+		border: solid 1px #8ee7d4;
+		resize: none;
+		width: 100%;
+		height: rem(100);
+		margin-bottom: rem(28);
+		padding: rem(12) 0 0 rem(15);
+		font-family: RobotoSlab;
+		font-size: rem(16);
+		font-weight: normal;
+		font-style: normal;
+		font-stretch: normal;
+		line-height: 1.63;
+		letter-spacing: normal;
+		color: black;
+		@include placeholder{
+			font-family: RobotoSlab;
+			font-size: rem(16);
+			font-weight: normal;
+			font-style: normal;
+			font-stretch: normal;
+			line-height: 1.63;
+			letter-spacing: normal;
+			color: black;
+		}
+
+	}
+}

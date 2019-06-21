@@ -1,0 +1,17 @@
+.title{
+  font-family: NexaRustSans;
+  font-size: 40px;
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.1;
+  letter-spacing: -0.05px;
+  color: #000000;
+}
+
+
+@media screen and (max-width:769px){
+    .title{
+        
+    }
+}

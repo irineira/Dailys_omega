@@ -1,0 +1,38 @@
+.sect3{
+    padding: 0 0 rem(120) 0 ;
+
+    .wrapper{
+		width: rem(850);
+    }
+    
+    &__content {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__itemblock{
+        text-align: center;
+    }
+
+    &__icon{
+        margin-bottom: rem(30);
+        img{
+            width: rem(100);
+            height: rem(100);
+        }
+    }
+
+    &__title{
+        span{
+            font-size: rem(18);
+            font-weight: 900;
+        }
+    }
+}
+
+
+@media screen and (max-width:769px){
+    .sect3{
+        
+    }
+}
