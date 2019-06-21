@@ -13,7 +13,7 @@ $(document).ready(() => {
         $('body').css('overflow-x', 'hidden');
     });
 
-    $('.adaptmenu nav').click(function() {
+    $('.adaptmenu__item').click(function() {
         $('.adaptmenu').removeClass('adaptmenu_active');
         $('body').css('overflow', 'visible');
         $('body').css('overflow-x', 'hidden');
@@ -48,14 +48,14 @@ $(document).ready(() => {
 
 
     //     // scrol menu
-//     $(document).on('click', '.sectmenu__item a', function() {
-//         event.preventDefault();
-//         var id = $(this).attr('href'),
-//             top = $(id).offset().top;
-//         $('body,html').animate({
-//             scrollTop: top
-//         }, 500);
-//     })
+    $(document).on('click', '.adaptmenu__item a', function() {
+        event.preventDefault();
+        var id = $(this).attr('href'),
+            top = $(id).offset().top;
+        $('body,html').animate({
+            scrollTop: top
+        }, 800);
+    })
 
     
 //     // popap
@@ -77,20 +77,25 @@ $(document).ready(() => {
 
 //     // slider
 
-    // var swiper = new Swiper('.swiper-container', {
-    //     loop: false,
-    //     slidesPerView: 1,
-    //     centeredSlides: false,
-    //     pagination:{
-    //         el: '.swiper-pagination'
-    //     },
-    //     autoplay: {
-    //         delay: 90000,
-    //         disableOnInteraction: false,
-    //     }
-    //   });
+    var swiper = new Swiper('.swiper-container', {
+        loop: false,
+        slidesPerView: 3,
+        centeredSlides: false,
+        breakpoints: {
+            769: {
+                slidesPerView: 1,
+                pagination: {
+                    el: '.swiper-pagination',
+                },
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+            }
+        }
+    });
 
-
+    
 
 });
 

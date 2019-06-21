@@ -1,10 +1,12 @@
 .sect7{
-	padding: rem(120) 0 rem(120) 0;
+	padding: rem(120) 0 0 0;
 
 	&__titleblock{
 		padding-bottom: rem(30);
 		border-bottom: 1px solid  #8ee7d4;
-		// margin-bottom: rem(30);
+		.title{
+			letter-spacing: -2px;
+		}
 	}
 }
 

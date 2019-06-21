@@ -6,8 +6,8 @@
     }
     
     &__content {
-        display: flex;
-        justify-content: space-between;
+        // display: flex;
+        // justify-content: space-between;
     }
 
     &__itemblock{
@@ -28,11 +28,16 @@
             font-weight: 900;
         }
     }
+
+    
 }
 
 
 @media screen and (max-width:769px){
     .sect3{
+        
+
+
         
     }
 }

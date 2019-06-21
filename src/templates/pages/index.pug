@@ -21,7 +21,7 @@ block content
                         .sect1__imgblock
                             img(src="./images/container-mockup.png", alt="")
 
-        section.sect2
+        section.sect2#one
             .wrapper
                 .sect2__content
                     .sect2__titleblock
@@ -32,30 +32,41 @@ block content
 
         section.sect3
             .wrapper
-                .sect3__content      
-                    .sect3__itemblock
-                        .sect3__icon
-                            img(src="./images/icon-no-fish.svg", alt="")
-                        .sect3__title 
-                            span   No Fish, 
-                                br
-                                |no Toxin      
-                    .sect3__itemblock
-                        .sect3__icon
-                            img(src="./images/icon-directly-from-source.svg", alt="")
-                        .sect3__title 
-                            span   Directly from 
-                                br
-                                | the source
-                    .sect3__itemblock
-                        .sect3__icon
-                            img(src="./images/icon-sustainable.svg", alt="")
-                        .sect3__title 
-                            span   Sustainable, 
-                                br
-                                | for the planet
+                .sect3__content  
+                    .sect3__slider 
+                        .slider_custom
+                            .swiper-container
+                                .swiper-wrapper
+                                    .swiper-slide
+                                        .sect3__itemblock
+                                            .sect3__icon
+                                                img(src="./images/icon-no-fish.svg", alt="")
+                                            .sect3__title 
+                                                span   No Fish, 
+                                                    br
+                                                    |no Toxin  
+                                    .swiper-slide    
+                                        .sect3__itemblock
+                                            .sect3__icon
+                                                img(src="./images/icon-directly-from-source.svg", alt="")
+                                            .sect3__title 
+                                                span   Directly from 
+                                                    br
+                                                    | the source
+                                    .swiper-slide
+                                        .sect3__itemblock
+                                            .sect3__icon
+                                                img(src="./images/icon-sustainable.svg", alt="")
+                                            .sect3__title 
+                                                span   Sustainable, 
+                                                    br
+                                                    | for the planet
+                                .swiper-pagination
 
-        section.sect4
+                                .swiper-button-next
+                                .swiper-button-prev
+
+        section.sect4#twoo
             .wrapper
                 .sect4__content 
                     .sect4__titleblock
@@ -63,7 +74,7 @@ block content
                     .sect4__infoblock
                         img(src="./images/dailys-process-copy.png", alt="")
 
-        section.sect5
+        section.sect5#three
             .wrapper
                 .sect5__content 
                     .sect5__titleblock
@@ -81,7 +92,7 @@ block content
                     .sect5__descblock
                         p We grow algae, get out the pure Omega-3, put it capsules and make sure we get it to you as fresh as possible!
         
-        section.sect6
+        section.sect6#four
             .wrapper
                 .sect6__content 
                     .sect6__massage
@@ -90,7 +101,7 @@ block content
                         .sect6__descblock
                             p Dailys Omega-3 is a brand of Wellness Innovations BV, which is a pure player of omega-3 food supplements. This is what we’re good at and this is what we do. We are market leader in the USA and Europe and will not stop until all omega-3 oil comes from the rights source: The algae!
 
-        section.sect7
+        section.sect7#five
             .wrapper
                 .sect7__content
                     .sect7__titleblock
@@ -125,7 +136,7 @@ block content
                                     .questionitem__text
                                         p  Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh. Aenean eu leo quam. Pellentesque ornare sem.
 
-        section.sect8
+        section.sect8#six
             .wrapper
                 .sect8__content
                     .sect8__titleblock
@@ -145,7 +156,7 @@ block content
                             textarea.textarea(placeholder="Message")
                             button.button(type="submit") Submit
                     
-        section.sect9
+        section.sect9#seven
             .wrapper
                 .sect9__content
                     .sect9__titleblock
