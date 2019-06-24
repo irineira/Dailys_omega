@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="54px" height="61px" viewBox="0 0 54 61" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>map-marker</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-41.7%" y="-34.3%" width="183.3%" height="168.6%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="3" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="onepager-desktop" transform="translate(-590.000000, -6323.000000)">
+            <g id="Group-19" transform="translate(340.000000, 5932.000000)">
+                <g id="Group-20" transform="translate(256.000000, 240.000000)">
+                    <g id="map-marker" filter="url(#filter-1)" transform="translate(0.000000, 154.000000)">
+                        <polygon id="Rectangle" fill="#479896" points="3.34514425e-15 0 41.9205298 1.93846154 40.9456338 35.8615385 27.6868144 36.2084272 23.397505 50.4 17.9375654 36.4634954 3.89958417 36.8307692"></polygon>
+                        <path d="M15.2799871,23.5903387 L9.51541838,9.20769231 L6.08844259,9.20769231 C5.41798968,9.20769231 4.87448021,8.66526806 4.87448021,7.99615385 C4.87448021,7.32703963 5.41798968,6.78461538 6.08844259,6.78461538 L10.3373109,6.78461538 C10.8337057,6.78461538 11.2800903,7.08622903 11.4644467,7.54619976 L17.2290154,21.9288462 L29.6174202,21.9288462 L33.8662885,13.4480769 L17.6210852,13.4480769 C16.9506323,13.4480769 16.4071228,12.9056527 16.4071228,12.2365385 C16.4071228,11.5674242 16.9506323,11.025 17.6210852,11.025 L35.8305209,11.025 C36.7329588,11.025 37.3199044,11.9728017 36.9163219,12.7783549 L31.4534912,23.6822011 C31.2478557,24.092651 30.8275053,24.3519231 30.3676902,24.3519231 L16.4071228,24.3519231 C15.910728,24.3519231 15.4643435,24.0503094 15.2799871,23.5903387 Z M29.1537278,31.0153846 C27.812822,31.0153846 26.7258031,29.9305361 26.7258031,28.5923077 C26.7258031,27.2540793 27.812822,26.1692308 29.1537278,26.1692308 C30.4946337,26.1692308 31.5816526,27.2540793 31.5816526,28.5923077 C31.5816526,29.9305361 30.4946337,31.0153846 29.1537278,31.0153846 Z M17.014104,31.0153846 C15.6731982,31.0153846 14.5861793,29.9305361 14.5861793,28.5923077 C14.5861793,27.2540793 15.6731982,26.1692308 17.014104,26.1692308 C18.3550098,26.1692308 19.4420288,27.2540793 19.4420288,28.5923077 C19.4420288,29.9305361 18.3550098,31.0153846 17.014104,31.0153846 Z" id="Path-2" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

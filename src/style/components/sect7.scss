@@ -30,17 +30,52 @@
 		img{
 			width: rem(22);
 			height: rem(22);
+			transform: rotate(90deg);
+			transition: 0s;
+			&.trans_rot{
+				transform: rotate(0deg);
+			}
 		}
 	}
 
 	&__bottom{
 		padding: rem(30) 0 0 0;
 	}
+
+	&__text{
+		p{
+			font-family: RobotoSlab;
+			font-size: 16px;
+			font-weight: normal;
+			font-style: normal;
+			font-stretch: normal;
+			line-height: 1.63;
+			letter-spacing: normal;
+			color: $black;
+		}
+	}
+
+	.hidden{
+		display: none;
+	}
 }
 
 
 @media screen and (max-width:769px){
     .sect7{
+		padding-top: 60px;
+
+		&__titleblock{
+			padding-bottom: 15px;
+		}
         
-    }
+	}
+	
+	.questionitem{
+		padding: 20px 0;
+
+		&__bottom{
+			padding: 20px 0 0 0;
+		}
+	}
 }

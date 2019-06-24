@@ -1,6 +1,8 @@
 .sect1{
     background: #479896;
     padding: rem(197) 0 rem(208) 0;
+    background-image: url(../images/green_bg_1.png);
+    background-size: cover;
 
     .wrapper{
         width: rem(1190);
@@ -16,11 +18,15 @@
         margin-bottom: rem(18);
         img{
             width: 100%;
+            &:last-child{
+                display: none;
+            }
         }
     }
 
     &__buttonblock{
         button{
+            outline: none;
             border: none;
             font-size: rem(20);
             background: #eeeeee;
@@ -50,6 +56,68 @@
 
 @media screen and (max-width:769px){
     .sect1{
+        padding: 99px 0 237px 0;
+
+        &__content{
+            flex-direction: column;
+        }
         
+        &__descblock{
+            img{
+                width: auto;
+                height: auto;
+                &:first-child{
+                    display: none;
+                }
+                &:last-child{
+                    display: block;
+                }
+            }
+        }
+
+        &__buttonblock{
+            button{
+                width: 157px;
+                height: 36px;
+                font-size: 12px;
+                font-weight: normal;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: 0.53;
+                letter-spacing: 0.5px;
+                padding: 10px 5px 8px 10px;
+                display: flex;
+                justify-content: space-between;
+                margin-top: -50px;
+
+                img{
+                    width: 18px;
+                    height: 18px;
+                }
+            }
+        }
+
+        &__imgblock{
+            top: inherit;
+            padding-top: 38px;
+            left: 36%;
+            transform: translateX(-50%);
+            img{
+                width: 254px;
+                height: auto;
+
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width:500px){
+    .sect1{
+        &__imgblock{
+            right: -13px;
+            left: inherit;
+            transform: none;
+        }   
     }
 }

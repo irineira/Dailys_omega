@@ -1,0 +1,109 @@
+.select {
+    background-color: transparent;
+	min-width: rem(300);
+	max-width: rem(300);
+    display: inline-block;
+    min-height: rem(32);
+    max-height: rem(32);
+    overflow: hidden;
+    cursor: pointer;
+    text-align: left;
+    white-space: nowrap;
+    position: absolute;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: normal;
+    text-align: center;
+    letter-spacing: 0.01em;
+	color: $white;
+	right: rem(30);
+	top: 50%;
+	transform: translateY(-50%);
+	
+    input {
+        display: none;
+	}
+	
+    label {
+        display: flex !important;
+		align-items: center;
+		justify-content: flex-end;
+        height: rem(29);
+        cursor: pointer;
+        position: relative;
+        width: 100%;
+        padding: 0 rem(17) 0 0 !important;
+        span{
+            &:last-child{
+                display: none !important;
+            }
+        }
+
+        &:nth-child(2) {
+            margin-top: rem(32);
+        }
+	}
+	
+    &::before {
+        content: "";
+        position: absolute;
+        width: rem(9);
+        height: rem(11);
+        top: 50%;
+        transform: translateY(-50%);
+		right: 0;
+		background-image: url(../images/icons-black-chevron.png);
+		background-size: contain;
+		
+    }
+    input:checked + label {
+        display: block;
+        border-top: none;
+        position: absolute;
+        top: 0;
+        &:nth-child(2) {
+            margin-top: 0;
+            position: relative;
+        }
+    }
+    
+    &.expanded {
+		max-height: 15em;
+		top: 50%;
+		transform: translateY(-10%);
+
+        label {
+            &:hover {
+                color: $black;
+            }
+		}
+		
+        input:checked + label {
+            color: $black;
+		}
+		
+        &::before {
+			display: none;
+		}
+    }
+}
+
+
+@media screen and (max-width:769px) {
+    .select{
+        right: 10px;
+
+        label{
+            span{
+                &:first-child{
+                    display: none;
+                }
+                &:last-child{
+                    display: inline !important;
+                }
+            }
+        }
+    }
+}

@@ -16,26 +16,33 @@
 
     .swiper-button-next, .swiper-button-prev{
         position: absolute;
+        cursor: pointer;
         top: 50%;
-
-        background: red;
-        width: 10px;
-        height: 10px;
+        background-image: url(../images/icn_bottom.png);
+        width: 30px;
+        height: 30px;
+        background-size: contain;
     }
 
     .swiper-button-prev{
         left: 5px;
+        transform: rotate(90deg);
     }
 
     .swiper-button-next{
         right: 5px;
+        transform: rotate(-90deg);
+    }
+
+    .swiper-button-disabled{
+        opacity: 0 !important;
     }
 }
 
 
 
 
-@media screen and (max-width:769px){
+@media screen and (max-width:500px){
     .slider_custom{
         .swiper-pagination, .swiper-button-next, .swiper-button-prev{
             display: block;
@@ -48,7 +55,7 @@
         .swiper-pagination{
             left: 50% !important;
             transform: translateX(-50%);
-            bottom: -20px !important;
+            bottom: -35px !important;
         }
     }
 }

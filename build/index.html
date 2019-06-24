@@ -18,7 +18,16 @@
               <div class="header__logo"><a href="/"><img src="./images/logo.svg" alt=""></a></div>
             </div>
             <div class="header__right">
-              <div class="header__select"> <span>Netherlands <</span></div>
+              <div class="header__select"> 
+                <div class="select">
+                  <input id="item00" name="sortType" type="radio" value="item00" checked="checked">
+                  <label id="item_1" for="item00">    <span>Netherlands</span><span>nl</span></label>
+                  <input id="item01" name="sortType" type="radio" value="item01">
+                  <label id="item_2" for="item01"> <span>Netherlands 2</span><span>nl 2</span></label>
+                  <input id="item02" name="sortType" type="radio" value="item02">
+                  <label id="item_3" for="item02"> <span>Netherlands 3</span><span>nl 3</span></label>
+                </div>
+              </div>
               <div class="header__blockbutton">
                 <button class="button">buy now</button>
               </div>
@@ -31,15 +40,14 @@
               </div>
             </div>
             <div class="adaptmenu">
-              <div class="adaptmen__close close"><img src="./images/close.png" alt=""></div>
               <div class="adaptmenu__content">
-                <div class="adaptmenu__item"><a href="#one">Serioufishly  </a></div>
-                <div class="adaptmenu__item"><a href="#twoo">How we get our Omega 3   </a></div>
-                <div class="adaptmenu__item"><a href="#three">The holy grail of omega 3  </a></div>
-                <div class="adaptmenu__item"><a href="#four">About us   </a></div>
-                <div class="adaptmenu__item"><a href="#five">FAQ  </a></div>
-                <div class="adaptmenu__item"><a href="#six">Contact   </a></div>
-                <div class="adaptmenu__item"><a href="#seven">Where to find us  </a></div>
+                <div class="adaptmenu__item"><a href="#one"> <span>Mission  </span></a></div>
+                <div class="adaptmenu__item"><a href="#twoo"> <span>The process  </span></a></div>
+                <div class="adaptmenu__item"><a href="#three"> <span>Our story </span></a></div>
+                <div class="adaptmenu__item"><a href="#four"> <span>About us   </span></a></div>
+                <div class="adaptmenu__item"><a href="#five"> <span>FAQ  </span></a></div>
+                <div class="adaptmenu__item"><a href="#six"> <span>Contact   </span></a></div>
+                <div class="adaptmenu__item"><a href="#seven"> <span>find us  </span></a></div>
               </div>
             </div>
           </div>
@@ -49,9 +57,9 @@
         <div class="wrapper">
           <div class="sect1__content">
             <div class="sect1__left">
-              <div class="sect1__descblock"><img src="./images/header-text-desktop.svg" alt=""></div>
+              <div class="sect1__descblock"><img src="./images/header-text-desktop.svg" alt=""><img src="./images/header-text-mobile.png" alt=""></div>
               <div class="sect1__buttonblock">
-                <button>read our story<img src="./images/icons-black-arrow.png" alt=""></button>
+                <button class="scroll_bottom">read our story<img src="./images/icons-black-arrow.png" alt=""></button>
               </div>
             </div>
             <div class="sect1__right">
@@ -157,7 +165,7 @@
                     <div class="questionitem__title"><span>Why omega-3 from algae?</span></div>
                     <div class="questionitem__icon"><img src="./images/icons-black-chevron.png" alt=""></div>
                   </div>
-                  <div class="questionitem__bottom">
+                  <div class="questionitem__bottom hidden">
                     <div class="questionitem__text">
                       <p> Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh. Aenean eu leo quam. Pellentesque ornare sem.</p>
                     </div>
@@ -165,10 +173,10 @@
                 </div>
                 <div class="questionitem"> 
                   <div class="questionitem__top">
-                    <div class="questionitem__title"><span>Why omega-3 from algae?</span></div>
+                    <div class="questionitem__title"><span>What is omega-3 good for?</span></div>
                     <div class="questionitem__icon"><img src="./images/icons-black-chevron.png" alt=""></div>
                   </div>
-                  <div class="questionitem__bottom">
+                  <div class="questionitem__bottom hidden">
                     <div class="questionitem__text">
                       <p> Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh. Aenean eu leo quam. Pellentesque ornare sem.</p>
                     </div>
@@ -176,10 +184,10 @@
                 </div>
                 <div class="questionitem"> 
                   <div class="questionitem__top">
-                    <div class="questionitem__title"><span>Why omega-3 from algae?</span></div>
+                    <div class="questionitem__title"><span>Maecenas sed diam eget risus varius blandit?</span></div>
                     <div class="questionitem__icon"><img src="./images/icons-black-chevron.png" alt=""></div>
                   </div>
-                  <div class="questionitem__bottom">
+                  <div class="questionitem__bottom hidden">
                     <div class="questionitem__text">
                       <p> Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh. Aenean eu leo quam. Pellentesque ornare sem.</p>
                     </div>
@@ -233,7 +241,7 @@
         <div class="wrapper">
           <div class="footer__content">
             <div class="footer__logo"><a href="/"><img src="./images/logo.svg" alt=""></a></div>
-            <div class="footer__social"><a href="#"><img src="./images/icons-white-linkedin.png" alt=""></a><a href="#"><img src="./images/icons-white-facebook.png" alt=""></a><a href="#"><img src="./images/icons-white-facebook.png" alt=""></a><a href="#"><img src="./images/icons-white-facebook.png" alt=""></a></div>
+            <div class="footer__social"><a href="#"><img src="./images/icons-white-linkedin.png" alt=""></a><a href="#"><img src="./images/icons-white-facebook.png" alt=""></a><a href="#"><img src="./images/icons-white-facebook.png" alt=""></a><a href="#"><img src="./images/linkedin.svg?1" alt=""></a></div>
             <div class="footer__bottom"><a href="#">Privacy Statement</a><a href="#">Cookie policy</a></div>
           </div>
         </div>

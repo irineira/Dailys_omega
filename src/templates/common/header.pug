@@ -9,7 +9,23 @@ header.header
             .header__right
 
                 .header__select 
-                    span Netherlands <
+                    .select
+                        input#item00(name='sortType', type='radio', value='item00', checked='checked')
+                        label#item_1(for='item00' )     
+                            span Netherlands
+                            span nl
+                        input#item01(name='sortType', type='radio', value='item01')
+                        label#item_2(for='item01' ) 
+                            span Netherlands 2
+                            span nl 2
+                        input#item02(name='sortType', type='radio', value='item02')
+                        label#item_3(for='item02' ) 
+                            span Netherlands 3
+                            span nl 3
+                        //- input#item03(name='sortType', type='radio', value='item03')
+                        //- label#item_4(for='item03' style="background-image: url(../images/i/Monero.svg);") Netherlands4
+                        //- input#item04(name='sortType', type='radio', value='item04')
+                        //- label#item_5(for='item04' style="background-image: url(../images/i/Ripple.png);") Ripple (XRP)
                     
 
                 .header__blockbutton
@@ -24,23 +40,30 @@ header.header
                 
 
             .adaptmenu
-                    .adaptmen__close.close
-                        img(src="./images/close.png", alt="")
+                    //- .adaptmen__close.close
+                    //-     img(src="./images/close.png", alt="")
 
                     .adaptmenu__content
                        
                         .adaptmenu__item
-                            a(href="#one") Serioufishly  
+                            a(href="#one") 
+                                span Mission  
                         .adaptmenu__item
-                            a(href="#twoo") How we get our Omega 3   
+                            a(href="#twoo") 
+                                span The process  
                         .adaptmenu__item
-                            a(href="#three") The holy grail of omega 3  
+                            a(href="#three") 
+                                span Our story 
                         .adaptmenu__item
-                            a(href="#four") About us   
+                            a(href="#four") 
+                                span About us   
                         .adaptmenu__item
-                            a(href="#five") FAQ  
+                            a(href="#five") 
+                                span FAQ  
                         .adaptmenu__item
-                            a(href="#six") Contact   
+                            a(href="#six") 
+                                span Contact   
                         .adaptmenu__item
-                            a(href="#seven") Where to find us  
+                            a(href="#seven") 
+                                span find us  
                         

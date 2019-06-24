@@ -53,7 +53,28 @@
 
 
 @media screen and (max-width:769px){
-    .sect1{
-        
+    .sect5{
+		padding: 60px 0 20px 0;
+		
+		&__titleblock{
+			padding-bottom: 15px;
+		}
+
+		&__descblock, &__descblockbig{
+			padding: 0;
+			p{
+				font-size: 16px;
+				line-height: 1.75;
+				&:last-child{
+					margin-bottom: 30px;
+				}
+			}
+		}
+
+		&__subtitleblock{
+			span{
+				font-size: 18px;
+			}
+		}
     }
 }

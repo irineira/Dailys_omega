@@ -4,11 +4,6 @@
     .wrapper{
 		width: rem(850);
     }
-    
-    &__content {
-        // display: flex;
-        // justify-content: space-between;
-    }
 
     &__itemblock{
         text-align: center;
@@ -35,9 +30,14 @@
 
 @media screen and (max-width:769px){
     .sect3{
+        padding: 0 0 100px 0;
         
-
-
-        
+        &__title{
+            span{
+                font-size: 20;
+                font-weight: 900;
+                line-height: 0.67;
+            }
+        }
     }
 }

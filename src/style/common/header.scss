@@ -2,6 +2,7 @@
     padding: rem(15) 0;
     position: absolute;
     width: 100%;
+    height: rem(80);
 
     .wrapper{
         width: rem(1190);
@@ -13,9 +14,15 @@
         align-self: center;
     }
 
+    &__left{
+        display: flex;
+    }
+
     &__logo{
-        width: rem(113.2);
-        height: rem(50);
+        img{
+            width: rem(113.2);
+            height: rem(50);
+        }
     }
 
     &__right{
@@ -24,9 +31,7 @@
     }
 
     &__select{
-        display: flex;
-        align-items: center;
-        padding-right: rem(30);
+        position: relative;
         span{
             font-size: 18px;
             text-transform: uppercase;
@@ -57,6 +62,27 @@
 
 @media screen and (max-width:769px){
     .header{
+    
+        &__logo{
+            img{
+                width: rem(67);
+                height: rem(30);
+            }
+        }  
         
+        &__blockbutton{
+            display: none;
         }
+
+        .burger{
+            &__line {
+                width: rem(26);
+                height: rem(4);
+                background-color: $white;
+                margin-bottom:rem(4);
+            }
+        }
+
+       
+    }
 }

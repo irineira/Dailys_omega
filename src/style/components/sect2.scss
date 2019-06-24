@@ -25,6 +25,17 @@
 
 @media screen and (max-width:769px){
     .sect2{
-        
+		padding: 160px 0 60px  0;
+		
+		&__titleblock{
+			padding-bottom: 15px;
+		}
+
+		&__descblock{
+			p{
+				line-height: 1.67;
+				font-size: 18px;
+			}
+		}
     }
 }
