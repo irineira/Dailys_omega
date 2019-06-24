@@ -1,12 +1,5 @@
     // adapt menu
 
-
-// @media screen and (max-width:769px){
-    
-    
-// }
-
-
 .adaptmenu{
     transform: translateY(-200%);
     transition: 1s;
@@ -26,7 +19,6 @@
     }
 
     &__item{
-       
         height: 100%;
         display: flex;
         align-self: center;
@@ -40,7 +32,6 @@
             position: relative;
             font-size: rem(20);
             padding: 0 6px;
-
             &:before{
                 position: absolute;
                 content: '';
@@ -53,18 +44,20 @@
                 transform: translateX(-50%);
                 transition: 0.3s;
             }
-    
+            &:hover{
+                color: #8ee7d4;
+            }
             &:hover:before{
                 width: 100%;
             }
         }
-        
     }  
 }
 
 .adaptmenu_active{
     transform: translateY(0);
 }
+
 
 
 

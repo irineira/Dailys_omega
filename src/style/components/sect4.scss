@@ -1,7 +1,7 @@
 .sect4{
 	padding: rem(120) 0 rem(140) 0;
 	background: #479896;
-	background-image: url(../images/bg_sect_4.png);
+	background-image: url(../images/bg_sect_4.jpg);
 	background-size: contain;
 
 	&__titleblock{
@@ -15,6 +15,8 @@
 		}
 	}
 }
+
+
 
 
 @media screen and (max-width:769px){
@@ -31,6 +33,5 @@
 				height: auto;
 			}
 		}
-        
     }
 }

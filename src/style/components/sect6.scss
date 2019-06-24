@@ -1,7 +1,7 @@
 .sect6{
 	background: #479896;
 	padding: rem(120) 0 rem(122) 0;
-	background-image: url(../images/green_BG_1.png);
+	background-image: url(../images/green_BG_1.jpg);
 	background-size: cover;
 
 	.wrapper{
@@ -38,6 +38,8 @@
 }
 
 
+
+
 @media screen and (max-width:769px){
     .sect6{
 		padding: 60px 0;
@@ -55,7 +57,6 @@
 				font-size: 16px;
 				line-height: 1.75;
 			}
-		}
-        
+		} 
     }
 }

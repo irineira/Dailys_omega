@@ -1,7 +1,7 @@
 .footer{
     background: #479896;
     padding: rem(60) 0;
-    background-image: url(../images/bg_footer.png);
+    background-image: url(../images/bg_footer.jpg);
 
     &__content{
         text-align: center;
@@ -17,9 +17,11 @@
 
     &__social{
         padding-bottom: rem(30);
+
         a{
             margin: 0 rem(7.5);
         }
+
         img{
             width: rem(30);
             height: rem(30);
@@ -40,5 +42,4 @@
             color: #8ee7d4;
         }
     }
-   
 }
