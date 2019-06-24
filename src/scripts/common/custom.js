@@ -21,7 +21,7 @@ $(document).ready(() => {
                 zoom: 12
             });
 
-            var image = '../images/map-marker.png';
+            var image = './images/marker.png';
             marker = new google.maps.Marker({
                 position: {lat: 46.476452, lng: 30.752942},
                 map: map,
@@ -142,12 +142,12 @@ $(document).ready(() => {
                 else{
 
                     if (NextScroll > CurrentScroll) {
-                        $('.header').fadeOut('fast');
+                        $('.header').fadeOut();
                         
                     }
         
                     else {
-                        $('.header').fadeIn('fast');
+                        $('.header').show();
                         $('.header').addClass('subheader_fix');
                     }
                 }
