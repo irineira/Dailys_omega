@@ -1,6 +1,6 @@
 .button {
 	height: rem(42);
-	background-color: $black;
+	background-color: transparent;
 	padding: rem(10);
 	font-size: rem(20);
 	border: none;
@@ -8,6 +8,9 @@
 	text-transform: uppercase;
 	cursor: pointer;
 	outline: none;
+	background-image: url(../images/btn-BG-buy-now.png);
+	background-size: cover;
+	border: none;
 
 	&:hover {
 		animation: example .6s;

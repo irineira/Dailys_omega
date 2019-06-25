@@ -30,11 +30,14 @@
             outline: none;
             border: none;
             font-size: rem(20);
-            background: #eeeeee;
+            background: transparent;
             padding: rem(10);
             text-transform: uppercase;
             display: flex;
             align-items: center;
+            background-image: url(../images/btn-BG-read-our-story.png);
+            border: none;
+            background-size: cover;
             &:hover {
                 animation: example .6s;
             }
