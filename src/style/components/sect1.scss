@@ -26,18 +26,25 @@
 
     &__buttonblock{
         button{
+            width: rem(182);
+            height: rem(42);
             cursor: pointer;
             outline: none;
             border: none;
             font-size: rem(20);
             background: transparent;
-            padding: rem(10);
+            padding: rem(6) rem(10) rem(10) rem(10);
             text-transform: uppercase;
             display: flex;
             align-items: center;
             background-image: url(../images/btn-BG-read-our-story.png);
             border: none;
             background-size: cover;
+            span{
+                font-family: Pistacho;
+                font-size: rem(35);
+                line-height: 0.2;
+           }
             &:hover {
                 animation: example .6s;
             }
@@ -46,7 +53,12 @@
                 transform: scale(0.99);
                 transition: 0s;
             }
+            span{
+                height: rem(20);
+                padding-right: rem(6);
+            }
             img{
+                padding-top: rem(6);
                 width: rem(22);
                 height: rem(22);
             }
@@ -109,9 +121,15 @@
                 display: flex;
                 justify-content: space-between;
                 margin-top: -50px;
+
+                span{
+                    font-size: 26px;
+                }
+
                 img{
-                    width: 18px;
-                    height: 18px;
+                    padding-top: 0;
+                    width: 16px;
+                    height: 16px;
                 }
             }
         }
