@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>icons/white/facebook</title>
+    <desc>Created with Sketch.</desc>
+    <g id="icons/white/facebook" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#EEEEEE" x="0" y="0" width="30" height="30"></rect>
+        <g id="black/facebook">
+            <rect id="size" x="0" y="0" width="30" height="30"></rect>
+            <path d="M24,5 L6,5 C5.46052382,5.02976246 5.02976246,5.46052382 5,6 L5,24 C5.02976246,24.5394762 5.46052382,24.9702375 6,25 L16,25 L16,17 L13,17 L13,14 L16,14 L16,12 C15.68,9.43 17.26,8 20,8 C20.6652835,8.0607318 21.3347165,8.0607318 22,8 L22,11 L20,11 C19,10.84 18.8,11.44 19,12 L19,14 L22,14 L21,17 L19,17 L19,25 L24,25 C24.5394762,24.9702375 24.9702375,24.5394762 25,24 L25,6 C24.9702375,5.46052382 24.5394762,5.02976246 24,5" id="icon" fill="#FFFFFF" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>

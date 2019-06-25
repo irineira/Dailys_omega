@@ -21,7 +21,7 @@ $(document).ready(() => {
                 zoom: 12
             });
 
-            var image = './images/marker.png';
+            var image = './images/map-marker.svg';
             marker = new google.maps.Marker({
                 position: {lat: 46.476452, lng: 30.752942},
                 map: map,

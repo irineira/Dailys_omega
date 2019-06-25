@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>icons/green/chevron</title>
+    <desc>Created with Sketch.</desc>
+    <g id="icons/green/chevron" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#EEEEEE" x="0" y="0" width="30" height="30"></rect>
+        <g id="icons/dark/twitter">
+            <rect id="size" x="0" y="0" width="30" height="30"></rect>
+        </g>
+        <path d="M6.18658819,21.9395349 L8.96873348,20.293338 L17.215807,15.4515824 C14.1355747,13.7085504 10.5585308,11.6750131 8.96873348,10.706662 L6.18658819,9.06046512 C4.79551555,8.18894912 5.78913887,7.02692779 6.78276218,4.41237979 C7.08084918,3.63769891 7.87574783,4.12187446 8.57128415,4.5092149 C11.8502411,6.44591712 23.8730832,13.32121 24.2705325,13.7085504 C24.4692572,13.9022207 24.6679819,17.0009442 24.2705325,17.2914496 C21.2896626,19.5186571 11.8502411,24.650918 8.57128415,26.4907851 C7.87574783,26.8781255 7.08084918,27.3623011 6.78276218,26.5876202 C5.78913887,23.9730722 4.79551555,22.7142158 6.18658819,21.9395349 Z" id="&gt;" fill="#8EE7D4" fill-rule="nonzero" transform="translate(15.000000, 15.500000) rotate(90.000000) translate(-15.000000, -15.500000) "></path>
+    </g>
+</svg>
