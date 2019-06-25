@@ -37,10 +37,11 @@
         padding: 0 rem(17) 0 0 !important;
         font-family: Pistacho !important;
         span{
+            font-family: Pistacho !important;
+            font-size: rem(40);
+            height: rem(68);
             &:last-child{
                 display: none !important;
-                font-family: Pistacho !important;
-                font-size: rem(40);
             }
         }
 
