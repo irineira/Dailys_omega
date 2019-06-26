@@ -36,11 +36,10 @@
 		align-items: center;
 		img{
 			width: rem(22);
-			height: rem(22);
-			transform: rotate(90deg);
+			height: rem(16);
 			transition: 0s;
 			&.trans_rot{
-				transform: rotate(0deg);
+				transform: rotate(90deg);
 			}
 		}
 	}

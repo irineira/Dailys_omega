@@ -128,7 +128,7 @@ $(document).ready(() => {
     $(function(){
 
         var CurrentScroll = 0;
-        $(window).scroll(function(event){
+        $(window).scroll(function(){
       
             var NextScroll = $(this).scrollTop();
 
@@ -141,15 +141,18 @@ $(document).ready(() => {
                 else{
 
                     if (NextScroll > CurrentScroll) {
-                        $('.header').fadeOut();
+                        $('.header').addClass('subheader_fix');
+                        $('.header').css('background-image', 'url(./images/green_BG_1.jpg)');
+                        $('.header').css('background-size', 'cover');
                         $('.adaptmenu').addClass('adaptmenu_active');
+                        this.console.log('top');
                     }
         
                     else {
-                        $('.header').show();
                         $('.header').css('background-image', 'url(./images/green_BG_1.jpg)');
                         $('.header').css('background-size', 'cover');
                         $('.header').addClass('subheader_fix');
+                        this.console.log('bottom');
                     }
                 }
 

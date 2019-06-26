@@ -49,12 +49,12 @@
     &::before {
         content: "";
         position: absolute;
-        width: rem(9);
-        height: rem(11);
+        width: rem(10);
+        height: rem(12);
         top: 72%;
         transform: translateY(-50%);
 		right: 0;
-		background-image: url(../images/chevron.svg);
+		background-image: url(../images/iconmonstr-arrow-65-240.png);
         background-size: contain;
         transition: 0s !important;
 		
@@ -97,5 +97,10 @@
     .select{
         right: 10px;
         top: -21px;
+        min-width: rem(100);
+        max-width: rem(100);
+        LABEL{
+            padding-right: 10px !important;
+        }
     }
 }

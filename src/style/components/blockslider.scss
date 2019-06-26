@@ -17,20 +17,20 @@
         position: absolute;
         cursor: pointer;
         top: 50%;
-        background-image: url(../images/chevron_g.svg);
+        background-image: url(../images/arr_slider.png);
         width: 30px;
         height: 30px;
         background-size: contain;
+        outline: none;
     }
 
     .swiper-button-prev{
         left: 5px;
-        transform: rotate(90deg);
     }
 
     .swiper-button-next{
         right: 5px;
-        transform: rotate(-90deg);
+        transform: rotate(180deg);
     }
 
     .swiper-button-disabled{
