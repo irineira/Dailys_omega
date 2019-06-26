@@ -64,6 +64,7 @@
 @media screen and (max-width:769px){
     .adaptmenu{
         overflow: scroll;
+        top: rem(64);
 
         &__content{
             padding: 0 20px;

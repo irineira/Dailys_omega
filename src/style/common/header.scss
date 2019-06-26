@@ -33,11 +33,11 @@
 
     &__select{
         position: relative;
-        span{
-            font-size: 18px;
-            text-transform: uppercase;
-            cursor: pointer;
-       }
+    //     span{
+    //         font-size: 18px;
+    //         text-transform: uppercase;
+    //         cursor: pointer;
+    //    }
     } 
 
     &__blockbutton{
@@ -73,7 +73,8 @@
 
 @media screen and (max-width:769px){
     .header{
-    
+        height: rem(64);
+        background-size: auto !important;
         &__logo{
             img{
                 width: rem(67);

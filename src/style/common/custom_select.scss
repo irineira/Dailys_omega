@@ -3,8 +3,8 @@
 	min-width: rem(300);
 	max-width: rem(300);
     display: inline-block;
-    min-height: rem(32);
-    max-height: rem(32);
+    min-height: rem(43);
+    max-height: rem(43);
     overflow: hidden;
     cursor: pointer;
     text-align: left;
@@ -13,14 +13,14 @@
     outline: none;
     border: none;
     font-weight: bold;
-    // font-size: 18px;
+    z-index: 1000000;
     line-height: normal;
     text-align: center;
     letter-spacing: 0.01em;
 	color: $white;
-	right: rem(30);
-	top: 50%;
-	transform: translateY(-50%);
+    right: rem(30);
+    top: rem(-8);
+    transition: 0s !important;
 	
     input {
         display: none;
@@ -30,23 +30,19 @@
         display: flex !important;
 		align-items: center;
 		justify-content: flex-end;
-        height: rem(29);
+        height: rem(40);
         cursor: pointer;
         position: relative;
         width: 100%;
         padding: 0 rem(17) 0 0 !important;
         font-family: Pistacho !important;
-        span{
-            font-family: Pistacho !important;
-            font-size: rem(40);
-            height: rem(68);
-            &:last-child{
-                display: none !important;
-            }
-        }
+        font-size: rem(40);
+        line-height: rem(40);
+        letter-spacing: rem(3);
+        transition: 0s !important;
 
         &:nth-child(2) {
-            margin-top: rem(32);
+            margin-top: rem(43);
         }
 	}
 	
@@ -55,11 +51,12 @@
         position: absolute;
         width: rem(9);
         height: rem(11);
-        top: 50%;
+        top: 72%;
         transform: translateY(-50%);
 		right: 0;
 		background-image: url(../images/chevron.svg);
-		background-size: contain;
+        background-size: contain;
+        transition: 0s !important;
 		
     }
     input:checked + label {
@@ -67,6 +64,7 @@
         border-top: none;
         position: absolute;
         top: 0;
+        transition: 0s !important;
         &:nth-child(2) {
             margin-top: 0;
             position: relative;
@@ -74,13 +72,13 @@
     }
     
     &.expanded {
-		max-height: 15em;
-		top: 50%;
-		transform: translateY(-10%);
+        max-height: 17em;
+        top: rem(-8);
+        transition: 0s !important;
 
         label {
             &:hover {
-                color: $black;
+                color: #8ee7d4;
             }
 		}
 		
@@ -98,16 +96,6 @@
 @media screen and (max-width:769px) {
     .select{
         right: 10px;
-
-        label{
-            span{
-                &:first-child{
-                    display: none;
-                }
-                &:last-child{
-                    display: inline !important;
-                }
-            }
-        }
+        top: -21px;
     }
 }

@@ -1,15 +1,5 @@
 $(document).ready(() => {
 
-
-    // burger
-    $('.burger').click(function() {
-        $('.adaptmenu').toggleClass('adaptmenu_active');
-    });
-
-    $('.adaptmenu__item').click(function() {
-        $('.adaptmenu').removeClass('adaptmenu_active');
-    });
-
         
     // map
     (function initMap() {
@@ -98,10 +88,17 @@ $(document).ready(() => {
         $('.select').removeClass('expanded');
     });
 
+    if ($(window).width() <= 1440) {
+        $('#item_1').html('Nl');
+        $('#item_2').html('Nl 2');
+        $('#item_3').html('Nl 3');
+    }
+
+ 
         
 
 
-    //scroll one screen bottom
+    //scroll one 1 screen bottom
     $(document).ready(function(){
         $('.scroll_bottom').click(function () {
             var win = $(window).height();
@@ -137,17 +134,21 @@ $(document).ready(() => {
 
                 if(NextScroll === 0) {
                     $('.header').removeClass('subheader_fix');
+                    $('.header').css('background', 'transparent');
+                    $('.adaptmenu').removeClass('adaptmenu_active');
                 }
 
                 else{
 
                     if (NextScroll > CurrentScroll) {
                         $('.header').fadeOut();
-                        
+                        $('.adaptmenu').addClass('adaptmenu_active');
                     }
         
                     else {
                         $('.header').show();
+                        $('.header').css('background-image', 'url(../images/green_BG_1.jpg)');
+                        $('.header').css('background-size', 'cover');
                         $('.header').addClass('subheader_fix');
                     }
                 }
@@ -156,6 +157,15 @@ $(document).ready(() => {
  
         });
 
+    });
+
+     // burger
+     $('.burger').click(function() {
+        $('.adaptmenu').toggleClass('adaptmenu_active');
+    });
+
+    $('.adaptmenu__item').click(function() {
+        $('.adaptmenu').removeClass('adaptmenu_active');
     });
 
 
