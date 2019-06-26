@@ -88,7 +88,7 @@ $(document).ready(() => {
         $('.select').removeClass('expanded');
     });
 
-    if ($(window).width() <= 1440) {
+    if ($(window).width() <= 769) {
         $('#item_1').html('Nl');
         $('#item_2').html('Nl 2');
         $('#item_3').html('Nl 3');
