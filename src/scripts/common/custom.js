@@ -147,7 +147,7 @@ $(document).ready(() => {
         
                     else {
                         $('.header').show();
-                        $('.header').css('background-image', 'url(../images/green_BG_1.jpg)');
+                        $('.header').css('background-image', 'url(./images/green_BG_1.jpg)');
                         $('.header').css('background-size', 'cover');
                         $('.header').addClass('subheader_fix');
                     }
