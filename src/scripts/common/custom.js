@@ -130,7 +130,7 @@ $(document).ready(() => {
                 if(NextScroll === 0) {
                     $('.header').removeClass('subheader_fix');
                     $('.header').css('background', 'transparent');
-                    $('.adaptmenu').removeClass('adaptmenu_active');
+                    // $('.adaptmenu').removeClass('adaptmenu_active');
                 }
 
                 else{
