@@ -25,7 +25,7 @@
     }
 
     &__buttonblock{
-        button{
+        a{
             width: rem(182);
             height: rem(42);
             cursor: pointer;
@@ -44,6 +44,9 @@
                 font-family: Pistacho;
                 font-size: rem(35);
                 line-height: 0.2;
+                height: rem(20);
+                padding-right: rem(6);
+                color: $black;
            }
             &:hover {
                 animation: example .6s;
@@ -52,10 +55,6 @@
             &:active {
                 transform: scale(0.99);
                 transition: 0s;
-            }
-            span{
-                height: rem(20);
-                padding-right: rem(6);
             }
             img{
                 margin: rem(6) 0 0 rem(6);
@@ -108,7 +107,7 @@
         }
 
         &__buttonblock{
-            button{
+            a{
                 cursor: pointer;
                 width: 157px;
                 height: 36px;

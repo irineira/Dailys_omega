@@ -1,7 +1,7 @@
     // adapt menu
 
 .adaptmenu{
-    transform: translateY(-200%);
+    transform: translateY(-400%);
     transition: 1s;
     width: 100vw;
     background-color: $black;
@@ -10,6 +10,8 @@
     z-index: 1000;
     top: rem(80);
     right: 0;
+    box-shadow: 0 rem(8) rem(8) 0 rgba(0,0,0,0.45);
+    transition: 0.6s;
 
     &__content{
         height: 100%;
@@ -56,6 +58,7 @@
 
 .adaptmenu_active{
     transform: translateY(0);
+    transition: 0.6s;
 }
 
 
