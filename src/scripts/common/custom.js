@@ -92,15 +92,6 @@ $(document).ready(() => {
         $('.adaptmenu').removeClass('adaptmenu_active');
     });
 
-    if ($(window).width() <= 769) {
-        $('#item_1').html('Nl');
-        $('#item_2').html('Nl 2');
-        $('#item_3').html('Nl 3');
-    }
-
- 
-        
-
 
     //scroll one 1 screen bottom
     $(document).ready(function(){
@@ -160,6 +151,12 @@ $(document).ready(() => {
             CurrentScroll = NextScroll;
  
         });
+
+        if(pageYOffset > 0) {
+            $('.header').css('background-image', 'url(./images/green_BG_1.jpg)');
+            $('.header').css('background-size', 'cover');
+            $('.header').addClass('subheader_fix');
+        }
 
     });
 

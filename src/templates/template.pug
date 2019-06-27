@@ -9,18 +9,26 @@ html
         meta(content="" name="keywords")
         meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1')
         meta(content="ie-edge" http-equiv="x-ua-compatible")
-        link(rel="stylesheet", href="./styles/app.min.css?4")
+        link(rel="stylesheet", href="./styles/app.min.css?5")
         
          
         
     
     body
         block content 
-        script(src="./dist/js/jquery-3.2.1.min.js?4")
-        script(src="./dist/js/swiper.min.js?4")
+        script(src="./dist/js/jquery-3.2.1.min.js?5")
+        script(src="./dist/js/swiper.min.js?5")
         script(src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCpQfeIi-fXbljlaIQpl4FDYaY2DdZirEg")
 
-        script(src='./scripts/app.js?4')
+        script(src='./scripts/app.js?5')
+        script.
+            $(document).ready(() => {
+                if ($(window).width() <= 769) {
+                    $('#item_1').html('Nl');
+                    $('#item_2').html('Nl 2');
+                    $('#item_3').html('Nl 3');
+                }
+            });
 
        
         
